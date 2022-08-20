@@ -1,0 +1,23 @@
+pares = []
+
+for num in range(1, 31):
+	if num%2==0:
+		pares.append(num)
+
+Algoritmo para guardar numeros pares en una lista
+Con List Comprehension seria:
+
+even = [num for num in range(1,31) if num%2==0]
+
+------------------------+-----------------------------+------------------------------------+------------------------------+
+
+cuadrados = {}
+
+for num in range(1,11):
+	cuadrados[num]=num**2
+
+Algoritmo que guarda en un diccionario los numeros elevados al cuadrado, teniendo como indice el numero normal cuadrados[2]=4
+
+Con un dictionary Comprehension
+
+squares = {num: num**2 for num in range(1,11)}
